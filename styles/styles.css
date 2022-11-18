@@ -1,0 +1,23 @@
+.header {
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+  }
+  .header img {
+    width: 500px;
+  }
+  .main {
+    display: grid;
+    place-content: center;
+  }
+  .buscador {
+    margin: 30px auto;
+  }
+  .buscador__input {
+    width: 200px;
+  }
+  .pokemons {
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    justify-items: center;
+  }
